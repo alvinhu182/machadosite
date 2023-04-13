@@ -85,6 +85,9 @@ button{
 	@media (max-width: 768px){
 	display:block
 	}
+	@media (max-width: 300px){
+		display:block
+		}
 }
 .mainsec{
 	margin: 20px;
@@ -92,5 +95,9 @@ button{
 
 li{
 	margin:10px
+}
+
+.btns{
+	margin-bottom: 30px;
 }
 
