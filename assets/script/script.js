@@ -11,3 +11,4 @@ form.addEventListener('submit', function(event) {
 		alert('Obrigado por entrar em contato conosco!');
 	}
 });
+

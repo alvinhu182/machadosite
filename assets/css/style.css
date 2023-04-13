@@ -70,7 +70,7 @@ button{
     font-size: 25px;
     font-weight: 400;
     color: #fff;
-    background-color: #3d535f;
+    background-color: #333;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
@@ -78,4 +78,10 @@ button{
     box-shadow: 0 15px 10px rgba(0,0,0,0.4); 
     border-radius: 100px;
     padding: 10px 20px;
+}
+.maindiv{
+	display: flex;
+}
+.mainsec{
+	margin: 20px;
 }
