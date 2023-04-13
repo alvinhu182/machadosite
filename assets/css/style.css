@@ -11,6 +11,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	width: 100%;
     
 }
 
@@ -81,7 +82,15 @@ button{
 }
 .maindiv{
 	display: flex;
+	@media (max-width: 768px){
+	display:block
+	}
 }
 .mainsec{
 	margin: 20px;
 }
+
+li{
+	margin:10px
+}
+
