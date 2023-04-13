@@ -81,16 +81,16 @@ button{
     padding: 10px 20px;
 }
 .maindiv{
-	display: flex;
-	@media (max-width: 768px){
-	display:block
+	
+	display: block;
+	@media (min-width: 900px){
+	display:flex
 	}
-	@media (max-width: 300px){
-		display:block
-		}
+
 }
 .mainsec{
 	margin: 20px;
+	
 }
 
 li{
@@ -98,6 +98,6 @@ li{
 }
 
 .btns{
-	margin-bottom: 30px;
+	margin-bottom: px;
 }
 
